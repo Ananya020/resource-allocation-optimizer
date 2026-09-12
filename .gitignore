@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Models (can be large / regeneratable via predict_value.py)
+models/*.joblib
+
+# Generated data (regeneratable via generate_data.py / predict_value.py / optimize.py / sensitivity.py)
+data/processed/*.csv
+
+# Generated reports (regeneratable via predict_value.py / sensitivity.py)
+reports/*.png
+reports/*.html
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+streamlit_log.txt
+
+# Env / secrets
+.env
