@@ -176,8 +176,8 @@ clearly.
 ### Sensitivity analysis: what actually moves the needle
 
 <p align="center">
-  <img src="assets/sensitivity_budget.png" width="420" alt="Budget sensitivity">
-  <img src="assets/sensitivity_headcount.png" width="420" alt="Headcount sensitivity">
+  <img src="reports/sensitivity_budget.png" width="420" alt="Budget sensitivity">
+  <img src="reports/sensitivity_headcount.png" width="420" alt="Headcount sensitivity">
 </p>
 
 - **Budget** shows classic diminishing returns, plateauing once headcount
